@@ -1,0 +1,44 @@
+<template>
+    <div id="search" class="flex justify-center">
+      <input
+        type="text"
+        id="searchBox"
+        placeholder="输入关键词"
+        autocomplete="on"
+        class="flex-initial
+               w-full
+               rounded-md
+               px-3.5
+               py-2
+               mr-2
+               text-black
+               shadow-lg
+               ring-2
+               ring-inset
+               ring-pink-300
+               outline-none
+               hover:bg-gray-50
+               focus:ring-pink-400
+               transition
+        "/>
+      <button
+        type="submit"
+        class="flex-initial
+               w-36
+               ml-2
+               rounded-md
+               bg-pink-400
+               py-2.5
+               px-3.5
+               text-sm
+               shadow-lg
+               font-semibold
+               text-white
+               hover:bg-pink-500
+               transition
+      ">
+        搜索
+      </button>
+    </div>
+  </template>
+  
