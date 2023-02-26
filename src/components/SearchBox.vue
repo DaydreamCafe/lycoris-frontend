@@ -3,7 +3,7 @@
       <input
         type="text"
         id="searchBox"
-        placeholder="输入关键词"
+        placeholder="输入关键词以搜索"
         autocomplete="on"
         class="flex-initial
                w-full
@@ -18,6 +18,7 @@
                ring-pink-300
                outline-none
                hover:bg-gray-50
+               hover:ring-pink-400
                focus:ring-pink-400
                transition
         "/>
