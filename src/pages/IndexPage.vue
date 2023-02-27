@@ -1,5 +1,7 @@
 <template>
-  <div class="flex justify-center items-start my-20">
+  <BannerBlock />
+
+  <div class="flex justify-center items-start mb-20 z-[0] bg-gray-100">
     <CalendarBlock
       class="shadow-md transition"
       :items="calendarItems"
@@ -16,6 +18,7 @@
 <script lang="ts" setup>
 import { onMounted, ref } from 'vue';
 
+import BannerBlock from './blocks/BannerBlock.vue';
 import SearchBlock from './blocks/SearchBlock.vue';
 import CalendarBlock from './blocks/CalendarBlock.vue';
 import ResourceListBlock from './blocks/ResourceListBlock.vue';

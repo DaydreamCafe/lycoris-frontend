@@ -9,7 +9,7 @@ export interface CalendarItem {
     rate: number;
 }
 
-export interface CalendarAPI {
+interface CalendarAPI {
     id: number;
     images: {
         large: string;
