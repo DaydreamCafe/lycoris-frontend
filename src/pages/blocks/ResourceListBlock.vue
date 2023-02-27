@@ -139,7 +139,7 @@
 
 <script lang="ts" setup>
 import isOdd from 'is-odd';
-import { Ref, onMounted, ref } from 'vue';
+import { onMounted, ref } from 'vue';
 
 interface Item {
   date: string;

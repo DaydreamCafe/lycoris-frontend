@@ -100,8 +100,8 @@
 import { ref } from 'vue';
 
 import SearchBox from '../../components/SearchBox.vue';
-import TagListBox from '../../components/TagListBox.vue';
-import ListBox from '../../components/ListBox.vue';
+import TagListBox from '../../components/SelectionTagListBox.vue';
+import ListBox from '../../components/SelectionListBox.vue';
 import CheckBox from '../../components/CheckBox.vue';
 import AdvancedSearchDialogBox from '../sub/AdvancedSearchDialogBox.vue';
 
